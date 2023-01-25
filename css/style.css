@@ -1,0 +1,78 @@
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(219, 3, 3, 0.336);
+    border-radius: 2px;
+}
+
+.carousel-img-1 {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+.carousel-img-2 {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+.carousel-img-3 {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+/* shadow  */
+.btn-dark {
+    transition: all 0.9s ease-in-out;
+    background-color: #f496d228;
+    border: 0;
+}
+
+.drop-shadow:hover .btn-dark {
+    transition: all 0.9s ease-in-out;
+    background-color: #FFFFFF;
+}
+
+.drop-shadow {
+    color: #000000;
+    margin-top: 30px;
+    border-radius: 8px;
+    transform: translateY(0);
+    transition: all 0.9s ease-in-out;
+    box-shadow: 1px 1px 8px 2px rgba(255, 255, 255, 0.258);
+    filter: drop-shadow(6px 6px 9px rgba(63, 63, 63, 0.258));
+}
+
+.drop-shadow span {
+    text-align: center;
+    top: -1px;
+    right: 20px;
+    transition: all 0.9s ease-in-out;
+    height: 30px;
+    width: 50px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4E4E !important;
+}
+
+.drop-shadow:hover {
+    color: #FFFFFF;
+    box-shadow: 0 3px 6px 0 rgba(148, 148, 148, 0.623);
+    background-color: #3F87F5;
+    transform: translateY(-15px);
+    transition: all 0.9s ease-in-out;
+}
+
+.drop-shadow:hover span {
+    transition: all 0.9s ease-in-out;
+    opacity: 1;
+}
